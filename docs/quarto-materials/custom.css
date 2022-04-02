@@ -1,0 +1,139 @@
+/* General pattern/branding for Miller docs:
+ * o The first color is white; the second color is black; the third color is maroon. Code snippets have
+ *   output in manila, with dark-manila command-lines.
+ * o As much as I love serif fonts like Palatino for their beauty (especially their artful italics),
+ *   I use sans-serif for pragmatic visual throughput. (If this were a sales sheet rather than a tech
+ *   guide, I'd use serifs.)
+ * o Corners on code blocks, images, etc. are all rounded.
+ * o Hovering over hyperlinks makes their background light grey for pre-click visual feedback.
+ */
+
+.navbar-nav:hover .nav-link:hover {
+  color: #800000;
+}
+
+.nav-page:hover .nav-page-previous:hover {
+  color: #800000;
+}
+
+.nav-page:hover .nav-page-next:hover {
+  color: #800000;
+}
+
+.nav-page:hover .nav-page-text:hover {
+  color: #800000;
+}
+
+.toc-actions a:hover {
+  color: #800000;
+}
+
+.page-navigation:hover {
+  color: #800000;
+}
+
+a.pagination-link:hover {
+  color: #800000;
+}
+
+.sidebar-navigation .text-start {
+  font-weight: bold;
+}
+
+.sidebar.sidebar-navigation .active {
+  color: #800000;
+  background-color: #e0e0e0;
+}
+
+a {
+  color: #800000;
+}
+a:before, a:focus, a:hover, a:link, a:visited {
+  color: #800000;
+}
+
+code, p code:not(.sourceCode), li code:not(.sourceCode), kbd, pre {
+  color: #000000;
+  background-color: #eae2cb;
+  font-size: 12px;
+  direction: ltr;
+  border-radius: 3px;
+}
+
+pre {
+  font-size: 12px;
+  padding: 10px;
+  text-decoration: none;
+
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+}
+
+pre.pre-highlight-in-pair {
+  background-color: #c5b690;
+  font-weight: bold;
+  margin-bottom: 0px;
+
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+pre.pre-non-highlight-in-pair {
+  background-color: #eae2cb;
+  margin-top: 0px;
+
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+/* For command-only or output-only situations (less common) -- normal margins.
+ * Example:
+ *   mlr cat foo.csv <---- command line
+ */
+pre.pre-highlight-non-pair {
+  background-color: #c5b690;
+  font-weight: bold;
+  margin-top: 2px;
+  margin-bottom: 16px;
+
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+/* Example:
+ *   a,b,c           <---- output line
+ *   1,2,3           <---- output line
+ *   4,5,6           <---- output line
+ */
+pre.pre-non-highlight-non-pair {
+  background-color: #eae2cb;
+  margin-top: 2px;
+  margin-bottom: 15px;
+
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+pre.pre-no-wrap {
+  font-size: 12px;
+  padding: 10px;
+
+  white-space: nowrap;       /* css-3 */
+  white-space: -moz-nowrap;  /* Mozilla, since 1999 */
+  white-space: -no-wrap;      /* Opera 4-6 */
+  white-space: -o-nowrap;    /* Opera 7 */
+}
+
+/* Rounded corners for screenshots/images */
+img {
+  border-radius: 6px;
+}
