@@ -36,5 +36,6 @@ website:
       collapse-level: 2
       align: left
       contents:
-        - href: "index.md"
+        - text: "quarto.yml title"
+          href: "index.md"
         - href: "page2.md"

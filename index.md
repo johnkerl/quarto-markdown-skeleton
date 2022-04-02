@@ -1,4 +1,8 @@
-# Title goes here
+---
+title: yaml title
+---
+
+...# H1 title
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Diam sollicitudin tempor id eu
