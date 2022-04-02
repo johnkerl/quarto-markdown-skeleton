@@ -16,8 +16,8 @@ format:
 
 website:
   favicon: "images/favicon.ico"
-  site-url: https://johnkerl.github.io/quarto-markdown-skeleton/
   repo-url: https://github.com/johnkerl/quarto-markdown-skeleton
+  site-url: https://johnkerl.github.io/quarto-markdown-skeleton/
   # You may want one or both of these, or neither:
   repo-actions: [edit, issue]
   page-navigation: true
