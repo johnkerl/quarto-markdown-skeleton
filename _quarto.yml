@@ -21,6 +21,7 @@ website:
   # You may want one or both of these, or neither:
   repo-actions: [edit, issue]
   page-navigation: true
+
   navbar:
     background: light
     collapse-below: lg
