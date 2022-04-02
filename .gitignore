@@ -1,0 +1,10 @@
+# Quarto dev-cache
+/.quarto/
+docs/.quarto
+
+# Let CI build this
+/docs
+
+# Vim swapfiles
+.*.sw?
+.sw?

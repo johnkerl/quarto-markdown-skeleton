@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: docs
+
+format:
+  html:
+    toc: true
+    theme: 
+      light: [flatly, "quarto-materials/custom.scss"]
+    mainfont: Helvetica
+    fontsize: 1rem
+    linkcolor: "#800000"
+    code-copy: true
+    code-overflow: wrap
+    css: "quarto-materials/custom.css"
+
+website:
+  favicon: "images/favicon.ico"
+  site-url: https://johnkerl.github.io/quarto-markdown-skeleton/
+  repo-url: https://github.com/johnkerl/quarto-markdown-skeleton
+  # You may want one or both of these, or neither:
+  repo-actions: [edit, issue]
+  page-navigation: true
+  navbar:
+    background: light
+    collapse-below: lg
+    left:
+      - text: "This repo"
+        href: "https://github.com/johnkerl/quarto-markdown-skeleton"
+      - text: "Quarto docs"
+        href: "https://quarto.org"
+
+  sidebar:
+    - style: "floating"
+      collapse-level: 2
+      align: left
+      contents:
+        - href: "index.md"
+        - href: "page2.md"

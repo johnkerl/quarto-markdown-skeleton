@@ -1,0 +1,25 @@
+/* General pattern/branding for Miller docs:
+ * o The first color is white; the second color is black; the third color is maroon. Code snippets have
+ *   output in manila, with dark-manila command-lines.
+ * o As much as I love serif fonts like Palatino for their beauty (especially their artful italics),
+ *   I use sans-serif for pragmatic visual throughput. (If this were a sales sheet rather than a tech
+ *   guide, I'd use serifs.)
+ * o Corners on code blocks, images, etc. are all rounded.
+ * o Hovering over hyperlinks makes their background light grey for pre-click visual feedback.
+ */
+
+/*-- scss:defaults --*/
+$navbar-bg: #800000;
+$navbar-fg: #eeeeee;
+$sidebar-fg: #800000;
+$footer-bg: #800000;
+$footer-fg: #eeeeee;
+
+/*-- scss:rules --*/
+h1, h2, h3 {
+  font-weight: 600; /* semibold */
+  color: #800000;
+  border-radius: 6px;
+  padding: 6px;
+  background-color: #e0e0e0;
+}
