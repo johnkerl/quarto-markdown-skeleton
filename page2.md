@@ -1,4 +1,8 @@
-# Another title goes here
+---
+title: Page 2 YAML title
+---
+
+# Page 2 H1 title
 
 Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Convallis
 posuere morbi leo urna molestie at elementum eu facilisis. Sit amet consectetur
