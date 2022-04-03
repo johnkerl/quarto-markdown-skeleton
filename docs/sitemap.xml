@@ -2,10 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://johnkerl.github.io/quarto-markdown-skeleton/page2.html</loc>
-    <lastmod>2022-04-02T23:12:22.712Z</lastmod>
+    <lastmod>2022-04-03T03:02:26.184Z</lastmod>
   </url>
   <url>
     <loc>https://johnkerl.github.io/quarto-markdown-skeleton/page1.html</loc>
-    <lastmod>2022-04-02T23:12:23.464Z</lastmod>
+    <lastmod>2022-04-03T03:02:26.808Z</lastmod>
+  </url>
+  <url>
+    <loc>https://johnkerl.github.io/quarto-markdown-skeleton/page3.html</loc>
+    <lastmod>2022-04-03T03:02:27.100Z</lastmod>
   </url>
 </urlset>
