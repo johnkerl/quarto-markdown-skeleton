@@ -39,3 +39,4 @@ website:
         - href: "page1.md"
         - href: "page2.md"
           text: "Page 2 _quarto.yml title"
+        - href: "page3.md"
